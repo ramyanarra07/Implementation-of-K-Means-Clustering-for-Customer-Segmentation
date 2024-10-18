@@ -8,21 +8,23 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-STEP 1 :
-Choose the number of clusters (K): Decide how many clusters you want to identify in your data. This is a hyperparameter that you need to set in advance.
+STEP 1: Start
 
 STEP 2 :
-Initialize cluster centroids: Randomly select K data points from your dataset as the initial centroids of the clusters.
+Choose the number of clusters (K): Decide how many clusters you want to identify in your data. This is a hyperparameter that you need to set in advance.
 
 STEP 3 :
-Assign data points to clusters: Calculate the distance between each data point and each centroid. Assign each data point to the cluster with the closest centroid. This step is typically done using Euclidean distance, but other distance metrics can also be used.
+Initialize cluster centroids: Randomly select K data points from your dataset as the initial centroids of the clusters.
 
 STEP 4 :
-Update cluster centroids: Recalculate the centroid of each cluster by taking the mean of all the data points assigned to that cluster.
+Assign data points to clusters: Calculate the distance between each data point and each centroid. Assign each data point to the cluster with the closest centroid. This step is typically done using Euclidean distance, but other distance metrics can also be used.
 
 STEP 5 :
-Repeat steps 3 and 4: Iterate steps 3 and 4 until convergence. Convergence occurs when the assignments of data points to clusters no longer change or change very minimally. 
+Update cluster centroids: Recalculate the centroid of each cluster by taking the mean of all the data points assigned to that cluster.
 
+STEP 6 :
+Repeat steps 3 and 4: Iterate steps 3 and 4 until convergence. Convergence occurs when the assignments of data points to clusters no longer change or change very minimally. 
+STEP 7: End
 ## Program:
 ```
 /*
